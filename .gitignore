@@ -1,0 +1,61 @@
+# Binaries and Objects
+/bin/
+/obj/
+/*.exe
+/*.exe~
+/*.dll
+/*.so
+/*.dylib
+/*.test
+/*.out
+
+# Dependency Directories (remove - if you're using vendoring)
+/vendor/
+/Godeps/
+
+# IDE and Editor Folders
+.vscode/
+.idea/
+*.swp
+*.swo
+*.sublime-workspace
+
+# Coverage Files
+*.cover
+coverage.txt
+
+# Log Files
+*.log
+
+# Output of the Go Coverage Tool
+*.out
+
+# Go Build Cache
+# Note: Adjust the path as needed if your GOPATH is not the default location
+$GOPATH/pkg/
+
+# Go Module Cache
+$GOPATH/pkg/mod/
+$GOPATH/bin/
+!**/go.sum
+
+# Local Environment Files
+.env
+.env.local
+
+# Configuration files that may contain system specific paths
+*.yaml
+*.yml
+*.json
+*.toml
+*.config
+
+# Exclude private and sensitive files
+*.pem
+*.key
+*.cert
+
+# Operating System Files
+.DS_Store
+Thumbs.db
+desktop.ini
