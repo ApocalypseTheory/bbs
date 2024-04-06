@@ -60,4 +60,4 @@ $GOPATH/bin/
 Thumbs.db
 desktop.ini
 
-dis/*
+dist/*
